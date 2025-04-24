@@ -1,6 +1,7 @@
 {
   "name": "myapp",
   "version": "0.1.0",
+  "homepage": "https://Vayvoda098.github.io/my-react-project",      
   "private": true,
   "dependencies": {
     "boostrap": "^2.0.0",
@@ -13,8 +14,10 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "test":  "react-scripts test",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",                                       
+    "deploy":   "gh-pages -d build"                                     
   },
   "eslintConfig": {
     "extends": [
